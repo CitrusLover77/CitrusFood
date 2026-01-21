@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{61f33885-640a-4ebd-b33f-b137ca1b3129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{765a53f5-287b-454b-82ad-d0eb97636d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="DTO">
+      <UniqueIdentifier>{c11591cf-a12e-4643-aadd-2a448196d2ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LoginForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="UiMessageHelper.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="DashboardView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewManager.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+    <ClInclude Include="MostOrderedDTO.h">
+      <Filter>DTO</Filter>
+    </ClInclude>
+    <ClInclude Include="MostOrderedService.h">
+      <Filter>Services</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LoginForm.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Inicio.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewManager.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="DashboardView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="StockDTO.h">
+      <Filter>DTO</Filter>
+    </ClCompile>
+    <ClCompile Include="StockService.h">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="StockService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+    <ClCompile Include="MostOrderedService.cpp">
+      <Filter>Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

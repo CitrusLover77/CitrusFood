@@ -1,0 +1,5 @@
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\x64\Debug\CitrusFood.vcxproj.AssemblyReference.cache
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\x64\Debug\CitrusFood.LoginForm.resources
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\x64\Debug\CitrusFood.vcxproj.GenerateResource.cache
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\x64\Debug\CitrusFood.MainForm.resources
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\x64\Debug\CitrusFood.DashboardView.resources

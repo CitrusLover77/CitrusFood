@@ -1,0 +1,62 @@
+  CitrusFood.DashboardView.resources - Embedded, ContainedInManifestFile, 
+  CitrusFood.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  CitrusFood.MainForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly CitrusFood, Version=0.0.*, Culture=Todos los idiomas (todos los países): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AuthService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Login(String, String): PrivateScope, Public, Static, HideBySig
+Class CitrusFood.DashboardView: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    loadLowStock(): PrivateScope, Public, HideBySig
+    mostOrdered(): PrivateScope, Public, HideBySig
+Class CitrusFood.StockDTO: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ingredientName : Public
+    Int32 quantity : Public
+Class CitrusFood.StockService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetLowStock(Int32): PrivateScope, Public, Static, HideBySig
+Class CitrusFood.MostOrderedDTO: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String productName : Public
+    Int32 orderCount : Public
+Class CitrusFood.MostOrderedService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetMostOrdered(Int32): PrivateScope, Public, Static, HideBySig
+Class CitrusFood.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class CitrusFood.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Color COLOR_BTN_NORMAL : Public
+    System.Drawing.Color COLOR_BTN_ACTIVE : Public
+    System.Drawing.Color COLOR_TEXT_NORMAL : Public
+    System.Drawing.Color COLOR_TEXT_ACTIVE : Public
+  Methods:
+    SetActiveButton(Button): PrivateScope, Public, HideBySig
+Class CitrusFood.ViewManager: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    Load(Panel, UserControl): PrivateScope, Public, Static, HideBySig

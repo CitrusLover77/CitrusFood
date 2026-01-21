@@ -1,0 +1,7 @@
+﻿  MostOrderedService.cpp
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(7,30): error C3083: 'Script': el símbolo situado a la izquierda de '::' debe ser un tipo
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(7,38): error C2039: "Serialization": no es un miembro de "System::Web"
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(7,38): error C2871: 'Serialization': no existe ningún espacio de nombres con este nombre
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(38,3): error C2065: 'JavaScriptSerializer': identificador no declarado
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(38,25): error C2065: 'serializer': identificador no declarado
+C:\Users\04aro\source\repos\CitrusFood\CitrusFood\MostOrderedService.cpp(38,44): error C2061: error de sintaxis: identificador 'JavaScriptSerializer'
